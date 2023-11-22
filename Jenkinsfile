@@ -7,7 +7,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                docker build -t agray998/task1jenk .
+                docker build -t MukeshdhokiaGitHub/task1jenk .
                 '''
             }
 
@@ -15,7 +15,7 @@ pipeline {
         stage('Push') {
             steps {
                 sh '''
-                docker push agray998/task1jenk
+                docker push MukeshdhokiaGitHub/task1jenk
                 '''
             }
 
